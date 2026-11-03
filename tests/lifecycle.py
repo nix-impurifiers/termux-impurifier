@@ -6,7 +6,8 @@ import shlex
 import time
 
 prefix = '/data/data/com.termux/files/usr'
-adb('install', os.environ['TERMUX_APK'])
+# First-install DEX compilation of the actual 34 MiB app is slow under CI TCG.
+adb('install', os.environ['TERMUX_APK'], timeout=600)
 adb('shell', 'am', 'start', '-n', 'com.termux/.app.TermuxActivity')
 def termux(command, check=True):
     result = adb('shell', 'run-as', 'com.termux', '/system/bin/sh', '-c',
