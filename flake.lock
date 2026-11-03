@@ -3,11 +3,11 @@
     "android-impurifier": {
       "flake": false,
       "locked": {
-        "lastModified": 1793714202,
-        "narHash": "sha256-F4b8Na2JoUXCN6Brawv+tv+RJbe6DWQ83ANn3QujI8M=",
+        "lastModified": 1793715573,
+        "narHash": "sha256-3AwU4OGwOTKlzrJ8iAaHzrxnmGw5wQaIzYRpuyTQRgM=",
         "owner": "nix-impurifiers",
         "repo": "android-impurifier",
-        "rev": "2afbf1938c204d751527fc7310a8866f092f2c71",
+        "rev": "b31e5384f8534d5e41b4066671db235e71490c9a",
         "type": "github"
       },
       "original": {
